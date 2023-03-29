@@ -1,5 +1,5 @@
 function checkAge() {
-    var dobInput = document.getElementById("dob");
+    var dobInput = document.getElementById("birthdateInput");
     var dob = new Date(dobInput.value);
     var age = calculateAge(dob);
 
